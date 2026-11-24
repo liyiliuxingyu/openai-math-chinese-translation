@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-15",
+  "branch": "EGA V independent supplement",
+  "completed": "printed p39 10.2 By a polarity through p40 editorial remark Proposition 10.3 is crossed out; original footnote56",
+  "next": "printed p40 Proposition 10.3. Let X be a prescheme",
+  "not_merged": true,
+  "proof_independently_verified": false,
+  "unresolved": [
+    "8.8 absent",
+    "9.4 unstated;9.5 fragment",
+    "10.1 closure ambiguity",
+    "10.2 regularity conventions and k-rational singularity application require verification"
+  ],
+  "previous_project": "libfile_fde3_f-65939061bde48191bc9daa92d6f7322a_49ac57203c0c81918f3630f0324dcb35",
+  "source_sha256": "23a20ef32fd16a1bd623c0c08ac080d04fc94f248de12133b713a19d6b0330d9",
+  "original_conversation_observed": "EGA last visible edition11 through21.4.8; math last visible02:26 continue; latest Library independent EGA9.4–10.1 and math4 lines109–180; no observed overlap"
+}
