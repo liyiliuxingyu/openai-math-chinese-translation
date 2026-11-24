@@ -1,0 +1,5 @@
+# Only PDF rendering/assembly helpers need these third-party packages.
+# resume.py status/next/doctor and verify_project.py use the standard library.
+# Versions actually imported and used in the recovery environment (Python 3.12.14).
+PyMuPDF==1.26.6
+Pillow==13.0.0

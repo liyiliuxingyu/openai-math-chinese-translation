@@ -1,0 +1,3018 @@
+{
+  "schema_version": 1,
+  "checked_utc": "2026-11-19T12:16:07.811973+00:00",
+  "source_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "scope": "Recovery completeness and build dependencies; not a new semantic or mathematical review. System paths are observations only, never active portable configuration.",
+  "current_status": "private_environment_ready; isolated_0018_subaudit_and_independent_root_batch_001_to_018_passed",
+  "default_environment_ready": false,
+  "portable_environment_dependency_lookup_ready": true,
+  "preserved_translation_file_integrity": {
+    "result": "pass",
+    "files_checked": 253,
+    "report": "recovery_evidence/translation_archive_integrity.json"
+  },
+  "original_integrity": {
+    "files_checked": 220,
+    "completed_manuscripts_files": 216,
+    "next_0019_source_only_files": 4,
+    "report": "recovery_evidence/translation_archive_integrity.json"
+  },
+  "papers": [
+    {
+      "sequence": 1,
+      "entrypoint": "math_translation/translated/0001/main.tex",
+      "working_directory": "math_translation/translated/0001",
+      "translated_tex_files": 10,
+      "translated_bib_files": 0,
+      "license_files": [],
+      "licenses_identical_to_repository": [],
+      "original_tex_files": 9,
+      "original_bib_files": 0,
+      "original_pdf_files": 1,
+      "explicit_font_commands": [],
+      "external_graphics": [],
+      "local_dependencies": [
+        {
+          "from": "math_translation/translated/0001/main.tex",
+          "command": "input",
+          "argument": "translation-note",
+          "resolved": "math_translation/translated/0001/translation-note.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0001/main.tex",
+          "command": "input",
+          "argument": "sections/00_intro",
+          "resolved": "math_translation/translated/0001/sections/00_intro.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0001/main.tex",
+          "command": "input",
+          "argument": "sections/01_preliminaries",
+          "resolved": "math_translation/translated/0001/sections/01_preliminaries.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0001/main.tex",
+          "command": "input",
+          "argument": "sections/02_transport",
+          "resolved": "math_translation/translated/0001/sections/02_transport.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0001/main.tex",
+          "command": "input",
+          "argument": "sections/03_filtration",
+          "resolved": "math_translation/translated/0001/sections/03_filtration.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0001/main.tex",
+          "command": "input",
+          "argument": "sections/04_weil",
+          "resolved": "math_translation/translated/0001/sections/04_weil.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0001/main.tex",
+          "command": "input",
+          "argument": "sections/05_reduction",
+          "resolved": "math_translation/translated/0001/sections/05_reduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0001/main.tex",
+          "command": "input",
+          "argument": "references",
+          "resolved": "math_translation/translated/0001/references.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0001/sections/00_intro.tex",
+          "command": "input",
+          "argument": "figures/two-transports",
+          "resolved": "math_translation/translated/0001/figures/two-transports.tex",
+          "exists": true
+        }
+      ],
+      "license_coverage": {
+        "mode": "shared_project_repository_license",
+        "files": [
+          "LICENSE",
+          "math_translation/source_catalog/LICENSE"
+        ],
+        "matches_repository_license": true,
+        "note": "The original 001–003 source package used a shared license, not three paper-local copies."
+      }
+    },
+    {
+      "sequence": 2,
+      "entrypoint": "math_translation/translated/0002/build/main.tex",
+      "working_directory": "math_translation/translated/0002/build",
+      "translated_tex_files": 13,
+      "translated_bib_files": 0,
+      "license_files": [],
+      "licenses_identical_to_repository": [],
+      "original_tex_files": 12,
+      "original_bib_files": 0,
+      "original_pdf_files": 1,
+      "explicit_font_commands": [],
+      "external_graphics": [],
+      "local_dependencies": [
+        {
+          "from": "math_translation/translated/0002/build/main.tex",
+          "command": "input",
+          "argument": "translation-note",
+          "resolved": "math_translation/translated/0002/build/translation-note.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0002/build/main.tex",
+          "command": "input",
+          "argument": "sections/01-introduction",
+          "resolved": "math_translation/translated/0002/build/sections/01-introduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0002/build/main.tex",
+          "command": "input",
+          "argument": "sections/02-classical",
+          "resolved": "math_translation/translated/0002/build/sections/02-classical.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0002/build/main.tex",
+          "command": "input",
+          "argument": "sections/03-models",
+          "resolved": "math_translation/translated/0002/build/sections/03-models.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0002/build/main.tex",
+          "command": "input",
+          "argument": "sections/04-vertical",
+          "resolved": "math_translation/translated/0002/build/sections/04-vertical.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0002/build/main.tex",
+          "command": "input",
+          "argument": "sections/05-single",
+          "resolved": "math_translation/translated/0002/build/sections/05-single.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0002/build/main.tex",
+          "command": "input",
+          "argument": "sections/06-pair",
+          "resolved": "math_translation/translated/0002/build/sections/06-pair.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0002/build/main.tex",
+          "command": "input",
+          "argument": "sections/07-theta",
+          "resolved": "math_translation/translated/0002/build/sections/07-theta.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0002/build/main.tex",
+          "command": "input",
+          "argument": "sections/08-extraction",
+          "resolved": "math_translation/translated/0002/build/sections/08-extraction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0002/build/main.tex",
+          "command": "input",
+          "argument": "sections/09-unit",
+          "resolved": "math_translation/translated/0002/build/sections/09-unit.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0002/build/main.tex",
+          "command": "input",
+          "argument": "sections/10-center",
+          "resolved": "math_translation/translated/0002/build/sections/10-center.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0002/build/main.tex",
+          "command": "input",
+          "argument": "references",
+          "resolved": "math_translation/translated/0002/build/references.tex",
+          "exists": true
+        }
+      ],
+      "license_coverage": {
+        "mode": "shared_project_repository_license",
+        "files": [
+          "LICENSE",
+          "math_translation/source_catalog/LICENSE"
+        ],
+        "matches_repository_license": true,
+        "note": "The original 001–003 source package used a shared license, not three paper-local copies."
+      }
+    },
+    {
+      "sequence": 3,
+      "entrypoint": "math_translation/translated/0003/main.tex",
+      "working_directory": "math_translation/translated/0003",
+      "translated_tex_files": 15,
+      "translated_bib_files": 1,
+      "license_files": [],
+      "licenses_identical_to_repository": [],
+      "original_tex_files": 14,
+      "original_bib_files": 1,
+      "original_pdf_files": 1,
+      "explicit_font_commands": [],
+      "external_graphics": [],
+      "local_dependencies": [
+        {
+          "from": "math_translation/translated/0003/main.tex",
+          "command": "input",
+          "argument": "preamble",
+          "resolved": "math_translation/translated/0003/preamble.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0003/main.tex",
+          "command": "input",
+          "argument": "translation-note",
+          "resolved": "math_translation/translated/0003/translation-note.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0003/main.tex",
+          "command": "input",
+          "argument": "sections/01-introduction",
+          "resolved": "math_translation/translated/0003/sections/01-introduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0003/main.tex",
+          "command": "input",
+          "argument": "sections/02-reduction",
+          "resolved": "math_translation/translated/0003/sections/02-reduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0003/main.tex",
+          "command": "input",
+          "argument": "sections/03-tame-deformation",
+          "resolved": "math_translation/translated/0003/sections/03-tame-deformation.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0003/main.tex",
+          "command": "input",
+          "argument": "sections/04-theta-construction",
+          "resolved": "math_translation/translated/0003/sections/04-theta-construction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0003/main.tex",
+          "command": "input",
+          "argument": "sections/05-constant-terms",
+          "resolved": "math_translation/translated/0003/sections/05-constant-terms.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0003/main.tex",
+          "command": "input",
+          "argument": "sections/06-nonconstant-coefficient",
+          "resolved": "math_translation/translated/0003/sections/06-nonconstant-coefficient.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0003/main.tex",
+          "command": "input",
+          "argument": "sections/07-cusp-lifting",
+          "resolved": "math_translation/translated/0003/sections/07-cusp-lifting.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0003/main.tex",
+          "command": "input",
+          "argument": "sections/08-galois-parameters",
+          "resolved": "math_translation/translated/0003/sections/08-galois-parameters.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0003/main.tex",
+          "command": "input",
+          "argument": "sections/09-extension-extraction",
+          "resolved": "math_translation/translated/0003/sections/09-extension-extraction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0003/main.tex",
+          "command": "input",
+          "argument": "sections/10-sylvester-cube-sums",
+          "resolved": "math_translation/translated/0003/sections/10-sylvester-cube-sums.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0003/main.tex",
+          "command": "input",
+          "argument": "sections/10-nonstandard-transfer",
+          "resolved": "math_translation/translated/0003/sections/10-nonstandard-transfer.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0003/main.tex",
+          "command": "bibliography",
+          "argument": "references",
+          "resolved": "math_translation/translated/0003/references.bib",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0003/sections/01-introduction.tex",
+          "command": "input",
+          "argument": "figures/proof-roadmap",
+          "resolved": "math_translation/translated/0003/figures/proof-roadmap.tex",
+          "exists": true
+        }
+      ],
+      "license_coverage": {
+        "mode": "shared_project_repository_license",
+        "files": [
+          "LICENSE",
+          "math_translation/source_catalog/LICENSE"
+        ],
+        "matches_repository_license": true,
+        "note": "The original 001–003 source package used a shared license, not three paper-local copies."
+      }
+    },
+    {
+      "sequence": 4,
+      "entrypoint": "math_translation/translated/0004/paper.tex",
+      "working_directory": "math_translation/translated/0004",
+      "translated_tex_files": 18,
+      "translated_bib_files": 0,
+      "license_files": [
+        "math_translation/translated/0004/LICENSE"
+      ],
+      "licenses_identical_to_repository": [
+        true
+      ],
+      "original_tex_files": 17,
+      "original_bib_files": 0,
+      "original_pdf_files": 1,
+      "explicit_font_commands": [],
+      "external_graphics": [],
+      "local_dependencies": [
+        {
+          "from": "math_translation/translated/0004/paper.tex",
+          "command": "input",
+          "argument": "translation_note",
+          "resolved": "math_translation/translated/0004/translation_note.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0004/paper.tex",
+          "command": "input",
+          "argument": "sections/01-introduction",
+          "resolved": "math_translation/translated/0004/sections/01-introduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0004/paper.tex",
+          "command": "input",
+          "argument": "sections/02-classical",
+          "resolved": "math_translation/translated/0004/sections/02-classical.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0004/paper.tex",
+          "command": "input",
+          "argument": "sections/03-foundations",
+          "resolved": "math_translation/translated/0004/sections/03-foundations.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0004/paper.tex",
+          "command": "input",
+          "argument": "sections/04-siegel",
+          "resolved": "math_translation/translated/0004/sections/04-siegel.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0004/paper.tex",
+          "command": "input",
+          "argument": "sections/05-positive-determinant",
+          "resolved": "math_translation/translated/0004/sections/05-positive-determinant.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0004/paper.tex",
+          "command": "input",
+          "argument": "sections/06-tame",
+          "resolved": "math_translation/translated/0004/sections/06-tame.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0004/paper.tex",
+          "command": "input",
+          "argument": "sections/07-positive-completion",
+          "resolved": "math_translation/translated/0004/sections/07-positive-completion.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0004/paper.tex",
+          "command": "input",
+          "argument": "sections/08-split-measures",
+          "resolved": "math_translation/translated/0004/sections/08-split-measures.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0004/paper.tex",
+          "command": "input",
+          "argument": "sections/09-split-local",
+          "resolved": "math_translation/translated/0004/sections/09-split-local.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0004/paper.tex",
+          "command": "input",
+          "argument": "sections/10-reducible",
+          "resolved": "math_translation/translated/0004/sections/10-reducible.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0004/paper.tex",
+          "command": "input",
+          "argument": "sections/11-cm",
+          "resolved": "math_translation/translated/0004/sections/11-cm.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0004/paper.tex",
+          "command": "input",
+          "argument": "sections/12-alternation-imaginary",
+          "resolved": "math_translation/translated/0004/sections/12-alternation-imaginary.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0004/paper.tex",
+          "command": "input",
+          "argument": "sections/13-real",
+          "resolved": "math_translation/translated/0004/sections/13-real.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0004/paper.tex",
+          "command": "input",
+          "argument": "sections/14-cyclic",
+          "resolved": "math_translation/translated/0004/sections/14-cyclic.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0004/paper.tex",
+          "command": "input",
+          "argument": "sections/15-conclusion",
+          "resolved": "math_translation/translated/0004/sections/15-conclusion.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0004/paper.tex",
+          "command": "input",
+          "argument": "references",
+          "resolved": "math_translation/translated/0004/references.tex",
+          "exists": true
+        }
+      ],
+      "license_coverage": {
+        "mode": "per-paper",
+        "files": [
+          "math_translation/translated/0004/LICENSE"
+        ],
+        "matches_repository_license": true
+      }
+    },
+    {
+      "sequence": 5,
+      "entrypoint": "math_translation/translated/0005/paper.tex",
+      "working_directory": "math_translation/translated/0005",
+      "translated_tex_files": 25,
+      "translated_bib_files": 0,
+      "license_files": [
+        "math_translation/translated/0005/LICENSE"
+      ],
+      "licenses_identical_to_repository": [
+        true
+      ],
+      "original_tex_files": 1,
+      "original_bib_files": 0,
+      "original_pdf_files": 1,
+      "explicit_font_commands": [],
+      "external_graphics": [],
+      "local_dependencies": [
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "translation_note",
+          "resolved": "math_translation/translated/0005/translation_note.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/01-introduction",
+          "resolved": "math_translation/translated/0005/sections/01-introduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/02-common-signal",
+          "resolved": "math_translation/translated/0005/sections/02-common-signal.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/03-first-half-plane",
+          "resolved": "math_translation/translated/0005/sections/03-first-half-plane.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/04-preliminaries",
+          "resolved": "math_translation/translated/0005/sections/04-preliminaries.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/05-completed-reflection",
+          "resolved": "math_translation/translated/0005/sections/05-completed-reflection.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/06-base-probe",
+          "resolved": "math_translation/translated/0005/sections/06-base-probe.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/07-poisson",
+          "resolved": "math_translation/translated/0005/sections/07-poisson.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/08-detector",
+          "resolved": "math_translation/translated/0005/sections/08-detector.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/09-sextic-sieve",
+          "resolved": "math_translation/translated/0005/sections/09-sextic-sieve.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/10-high-expansion",
+          "resolved": "math_translation/translated/0005/sections/10-high-expansion.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/11-eleven-twelfths",
+          "resolved": "math_translation/translated/0005/sections/11-eleven-twelfths.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/12-compensated-probe",
+          "resolved": "math_translation/translated/0005/sections/12-compensated-probe.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/13-coefficients",
+          "resolved": "math_translation/translated/0005/sections/13-coefficients.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/14-marked-reflection",
+          "resolved": "math_translation/translated/0005/sections/14-marked-reflection.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/15-compensated-low",
+          "resolved": "math_translation/translated/0005/sections/15-compensated-low.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/16-local-compensation",
+          "resolved": "math_translation/translated/0005/sections/16-local-compensation.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/17a-inverse-setup",
+          "resolved": "math_translation/translated/0005/sections/17a-inverse-setup.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/17b-canonical-induction",
+          "resolved": "math_translation/translated/0005/sections/17b-canonical-induction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/17c-initialization-amplification",
+          "resolved": "math_translation/translated/0005/sections/17c-initialization-amplification.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/18-fourth-moments",
+          "resolved": "math_translation/translated/0005/sections/18-fourth-moments.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/19-prime-amplitudes",
+          "resolved": "math_translation/translated/0005/sections/19-prime-amplitudes.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "sections/20-seven-eighths",
+          "resolved": "math_translation/translated/0005/sections/20-seven-eighths.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0005/paper.tex",
+          "command": "input",
+          "argument": "references",
+          "resolved": "math_translation/translated/0005/references.tex",
+          "exists": true
+        }
+      ],
+      "license_coverage": {
+        "mode": "per-paper",
+        "files": [
+          "math_translation/translated/0005/LICENSE"
+        ],
+        "matches_repository_license": true
+      }
+    },
+    {
+      "sequence": 6,
+      "entrypoint": "math_translation/translated/0006/paper.tex",
+      "working_directory": "math_translation/translated/0006",
+      "translated_tex_files": 12,
+      "translated_bib_files": 0,
+      "license_files": [
+        "math_translation/translated/0006/LICENSE"
+      ],
+      "licenses_identical_to_repository": [
+        true
+      ],
+      "original_tex_files": 1,
+      "original_bib_files": 0,
+      "original_pdf_files": 1,
+      "explicit_font_commands": [],
+      "external_graphics": [],
+      "local_dependencies": [
+        {
+          "from": "math_translation/translated/0006/paper.tex",
+          "command": "input",
+          "argument": "translation_note",
+          "resolved": "math_translation/translated/0006/translation_note.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0006/paper.tex",
+          "command": "input",
+          "argument": "sections/01-introduction",
+          "resolved": "math_translation/translated/0006/sections/01-introduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0006/paper.tex",
+          "command": "input",
+          "argument": "sections/02-outline",
+          "resolved": "math_translation/translated/0006/sections/02-outline.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0006/paper.tex",
+          "command": "input",
+          "argument": "sections/03-zero-free-reduction",
+          "resolved": "math_translation/translated/0006/sections/03-zero-free-reduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0006/paper.tex",
+          "command": "input",
+          "argument": "sections/04-poisson-dual-mean-square",
+          "resolved": "math_translation/translated/0006/sections/04-poisson-dual-mean-square.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0006/paper.tex",
+          "command": "input",
+          "argument": "sections/05-iteration",
+          "resolved": "math_translation/translated/0006/sections/05-iteration.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0006/paper.tex",
+          "command": "input",
+          "argument": "sections/06-completed-estimate",
+          "resolved": "math_translation/translated/0006/sections/06-completed-estimate.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0006/paper.tex",
+          "command": "input",
+          "argument": "sections/07-transfer",
+          "resolved": "math_translation/translated/0006/sections/07-transfer.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0006/paper.tex",
+          "command": "input",
+          "argument": "sections/08-arithmetic-theta",
+          "resolved": "math_translation/translated/0006/sections/08-arithmetic-theta.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0006/paper.tex",
+          "command": "input",
+          "argument": "sections/09-smooth-weights",
+          "resolved": "math_translation/translated/0006/sections/09-smooth-weights.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0006/paper.tex",
+          "command": "input",
+          "argument": "references",
+          "resolved": "math_translation/translated/0006/references.tex",
+          "exists": true
+        }
+      ],
+      "license_coverage": {
+        "mode": "per-paper",
+        "files": [
+          "math_translation/translated/0006/LICENSE"
+        ],
+        "matches_repository_license": true
+      }
+    },
+    {
+      "sequence": 7,
+      "entrypoint": "math_translation/translated/0007/paper.tex",
+      "working_directory": "math_translation/translated/0007",
+      "translated_tex_files": 9,
+      "translated_bib_files": 0,
+      "license_files": [
+        "math_translation/translated/0007/LICENSE"
+      ],
+      "licenses_identical_to_repository": [
+        true
+      ],
+      "original_tex_files": 1,
+      "original_bib_files": 0,
+      "original_pdf_files": 1,
+      "explicit_font_commands": [],
+      "external_graphics": [],
+      "local_dependencies": [
+        {
+          "from": "math_translation/translated/0007/paper.tex",
+          "command": "input",
+          "argument": "translation_note",
+          "resolved": "math_translation/translated/0007/translation_note.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0007/paper.tex",
+          "command": "input",
+          "argument": "sections/01-introduction",
+          "resolved": "math_translation/translated/0007/sections/01-introduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0007/paper.tex",
+          "command": "input",
+          "argument": "sections/02-prime-bias",
+          "resolved": "math_translation/translated/0007/sections/02-prime-bias.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0007/paper.tex",
+          "command": "input",
+          "argument": "sections/03-interpolation",
+          "resolved": "math_translation/translated/0007/sections/03-interpolation.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0007/paper.tex",
+          "command": "input",
+          "argument": "sections/04-weighted-determinant",
+          "resolved": "math_translation/translated/0007/sections/04-weighted-determinant.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0007/paper.tex",
+          "command": "input",
+          "argument": "sections/05-determinant-bounds",
+          "resolved": "math_translation/translated/0007/sections/05-determinant-bounds.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0007/paper.tex",
+          "command": "input",
+          "argument": "sections/06-conclusion",
+          "resolved": "math_translation/translated/0007/sections/06-conclusion.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0007/paper.tex",
+          "command": "input",
+          "argument": "references",
+          "resolved": "math_translation/translated/0007/references.tex",
+          "exists": true
+        }
+      ],
+      "license_coverage": {
+        "mode": "per-paper",
+        "files": [
+          "math_translation/translated/0007/LICENSE"
+        ],
+        "matches_repository_license": true
+      }
+    },
+    {
+      "sequence": 8,
+      "entrypoint": "math_translation/translated/0008/main.tex",
+      "working_directory": "math_translation/translated/0008",
+      "translated_tex_files": 10,
+      "translated_bib_files": 1,
+      "license_files": [
+        "math_translation/translated/0008/LICENSE"
+      ],
+      "licenses_identical_to_repository": [
+        true
+      ],
+      "original_tex_files": 9,
+      "original_bib_files": 1,
+      "original_pdf_files": 1,
+      "explicit_font_commands": [],
+      "external_graphics": [],
+      "local_dependencies": [
+        {
+          "from": "math_translation/translated/0008/main.tex",
+          "command": "input",
+          "argument": "translation_note",
+          "resolved": "math_translation/translated/0008/translation_note.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0008/main.tex",
+          "command": "input",
+          "argument": "sections/01-introduction",
+          "resolved": "math_translation/translated/0008/sections/01-introduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0008/main.tex",
+          "command": "input",
+          "argument": "sections/02-reduction",
+          "resolved": "math_translation/translated/0008/sections/02-reduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0008/main.tex",
+          "command": "input",
+          "argument": "sections/03-parity",
+          "resolved": "math_translation/translated/0008/sections/03-parity.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0008/main.tex",
+          "command": "input",
+          "argument": "sections/04-height",
+          "resolved": "math_translation/translated/0008/sections/04-height.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0008/main.tex",
+          "command": "input",
+          "argument": "sections/05-elliptic",
+          "resolved": "math_translation/translated/0008/sections/05-elliptic.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0008/main.tex",
+          "command": "input",
+          "argument": "sections/06-primes",
+          "resolved": "math_translation/translated/0008/sections/06-primes.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0008/main.tex",
+          "command": "input",
+          "argument": "sections/07-consequences",
+          "resolved": "math_translation/translated/0008/sections/07-consequences.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0008/main.tex",
+          "command": "bibliography",
+          "argument": "references/references",
+          "resolved": "math_translation/translated/0008/references/references.bib",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0008/sections/02-reduction.tex",
+          "command": "input",
+          "argument": "figures/reduction-overview",
+          "resolved": "math_translation/translated/0008/figures/reduction-overview.tex",
+          "exists": true
+        }
+      ],
+      "license_coverage": {
+        "mode": "per-paper",
+        "files": [
+          "math_translation/translated/0008/LICENSE"
+        ],
+        "matches_repository_license": true
+      }
+    },
+    {
+      "sequence": 9,
+      "entrypoint": "math_translation/translated/0009/paper.tex",
+      "working_directory": "math_translation/translated/0009",
+      "translated_tex_files": 12,
+      "translated_bib_files": 1,
+      "license_files": [
+        "math_translation/translated/0009/LICENSE"
+      ],
+      "licenses_identical_to_repository": [
+        true
+      ],
+      "original_tex_files": 11,
+      "original_bib_files": 1,
+      "original_pdf_files": 1,
+      "explicit_font_commands": [],
+      "external_graphics": [],
+      "local_dependencies": [
+        {
+          "from": "math_translation/translated/0009/paper.tex",
+          "command": "input",
+          "argument": "translation_note",
+          "resolved": "math_translation/translated/0009/translation_note.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0009/paper.tex",
+          "command": "input",
+          "argument": "sections/introduction",
+          "resolved": "math_translation/translated/0009/sections/introduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0009/paper.tex",
+          "command": "input",
+          "argument": "sections/preliminaries",
+          "resolved": "math_translation/translated/0009/sections/preliminaries.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0009/paper.tex",
+          "command": "input",
+          "argument": "sections/cyclotomic",
+          "resolved": "math_translation/translated/0009/sections/cyclotomic.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0009/paper.tex",
+          "command": "input",
+          "argument": "sections/ring-limits",
+          "resolved": "math_translation/translated/0009/sections/ring-limits.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0009/paper.tex",
+          "command": "input",
+          "argument": "sections/ring-determinants",
+          "resolved": "math_translation/translated/0009/sections/ring-determinants.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0009/paper.tex",
+          "command": "input",
+          "argument": "sections/nonvanishing",
+          "resolved": "math_translation/translated/0009/sections/nonvanishing.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0009/paper.tex",
+          "command": "input",
+          "argument": "sections/coefficients",
+          "resolved": "math_translation/translated/0009/sections/coefficients.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0009/paper.tex",
+          "command": "input",
+          "argument": "sections/graphs",
+          "resolved": "math_translation/translated/0009/sections/graphs.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0009/paper.tex",
+          "command": "input",
+          "argument": "sections/pointwise",
+          "resolved": "math_translation/translated/0009/sections/pointwise.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0009/paper.tex",
+          "command": "bibliography",
+          "argument": "references",
+          "resolved": "math_translation/translated/0009/references.bib",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0009/sections/introduction.tex",
+          "command": "input",
+          "argument": "sections/proof-roadmap-figure",
+          "resolved": "math_translation/translated/0009/sections/proof-roadmap-figure.tex",
+          "exists": true
+        }
+      ],
+      "license_coverage": {
+        "mode": "per-paper",
+        "files": [
+          "math_translation/translated/0009/LICENSE"
+        ],
+        "matches_repository_license": true
+      }
+    },
+    {
+      "sequence": 10,
+      "entrypoint": "math_translation/translated/0010/main.tex",
+      "working_directory": "math_translation/translated/0010",
+      "translated_tex_files": 10,
+      "translated_bib_files": 1,
+      "license_files": [
+        "math_translation/translated/0010/LICENSE"
+      ],
+      "licenses_identical_to_repository": [
+        true
+      ],
+      "original_tex_files": 9,
+      "original_bib_files": 1,
+      "original_pdf_files": 1,
+      "explicit_font_commands": [],
+      "external_graphics": [],
+      "local_dependencies": [
+        {
+          "from": "math_translation/translated/0010/main.tex",
+          "command": "input",
+          "argument": "translation_note",
+          "resolved": "math_translation/translated/0010/translation_note.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0010/main.tex",
+          "command": "input",
+          "argument": "sections/introduction",
+          "resolved": "math_translation/translated/0010/sections/introduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0010/main.tex",
+          "command": "input",
+          "argument": "sections/foundations",
+          "resolved": "math_translation/translated/0010/sections/foundations.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0010/main.tex",
+          "command": "input",
+          "argument": "sections/odd-primes",
+          "resolved": "math_translation/translated/0010/sections/odd-primes.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0010/main.tex",
+          "command": "input",
+          "argument": "sections/nonvanishing",
+          "resolved": "math_translation/translated/0010/sections/nonvanishing.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0010/main.tex",
+          "command": "input",
+          "argument": "sections/real-place",
+          "resolved": "math_translation/translated/0010/sections/real-place.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0010/main.tex",
+          "command": "input",
+          "argument": "sections/energy",
+          "resolved": "math_translation/translated/0010/sections/energy.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0010/main.tex",
+          "command": "input",
+          "argument": "sections/certificate",
+          "resolved": "math_translation/translated/0010/sections/certificate.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0010/main.tex",
+          "command": "input",
+          "argument": "sections/conclusion",
+          "resolved": "math_translation/translated/0010/sections/conclusion.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0010/main.tex",
+          "command": "bibliography",
+          "argument": "references",
+          "resolved": "math_translation/translated/0010/references.bib",
+          "exists": true
+        }
+      ],
+      "license_coverage": {
+        "mode": "per-paper",
+        "files": [
+          "math_translation/translated/0010/LICENSE"
+        ],
+        "matches_repository_license": true
+      }
+    },
+    {
+      "sequence": 11,
+      "entrypoint": "math_translation/translated/0011/main.tex",
+      "working_directory": "math_translation/translated/0011",
+      "translated_tex_files": 16,
+      "translated_bib_files": 1,
+      "license_files": [
+        "math_translation/translated/0011/LICENSE"
+      ],
+      "licenses_identical_to_repository": [
+        true
+      ],
+      "original_tex_files": 15,
+      "original_bib_files": 1,
+      "original_pdf_files": 1,
+      "explicit_font_commands": [],
+      "external_graphics": [],
+      "local_dependencies": [
+        {
+          "from": "math_translation/translated/0011/main.tex",
+          "command": "input",
+          "argument": "translation_note",
+          "resolved": "math_translation/translated/0011/translation_note.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0011/main.tex",
+          "command": "input",
+          "argument": "sections/00-introduction",
+          "resolved": "math_translation/translated/0011/sections/00-introduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0011/main.tex",
+          "command": "input",
+          "argument": "sections/01-preliminaries",
+          "resolved": "math_translation/translated/0011/sections/01-preliminaries.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0011/main.tex",
+          "command": "input",
+          "argument": "sections/01-arithmetic-transfer",
+          "resolved": "math_translation/translated/0011/sections/01-arithmetic-transfer.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0011/main.tex",
+          "command": "input",
+          "argument": "sections/05-coefficients",
+          "resolved": "math_translation/translated/0011/sections/05-coefficients.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0011/main.tex",
+          "command": "input",
+          "argument": "sections/06-traces",
+          "resolved": "math_translation/translated/0011/sections/06-traces.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0011/main.tex",
+          "command": "input",
+          "argument": "sections/07-prime-graphs",
+          "resolved": "math_translation/translated/0011/sections/07-prime-graphs.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0011/main.tex",
+          "command": "input",
+          "argument": "sections/08-rational-converse",
+          "resolved": "math_translation/translated/0011/sections/08-rational-converse.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0011/main.tex",
+          "command": "input",
+          "argument": "sections/09-local-matrices",
+          "resolved": "math_translation/translated/0011/sections/09-local-matrices.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0011/main.tex",
+          "command": "input",
+          "argument": "sections/10-irreducible-converse",
+          "resolved": "math_translation/translated/0011/sections/10-irreducible-converse.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0011/main.tex",
+          "command": "input",
+          "argument": "sections/01-nonvanishing",
+          "resolved": "math_translation/translated/0011/sections/01-nonvanishing.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0011/main.tex",
+          "command": "input",
+          "argument": "sections/02-binary-algebra",
+          "resolved": "math_translation/translated/0011/sections/02-binary-algebra.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0011/main.tex",
+          "command": "input",
+          "argument": "sections/04-cyclotomic",
+          "resolved": "math_translation/translated/0011/sections/04-cyclotomic.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0011/main.tex",
+          "command": "input",
+          "argument": "sections/03-heegner",
+          "resolved": "math_translation/translated/0011/sections/03-heegner.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0011/main.tex",
+          "command": "input",
+          "argument": "sections/11-conclusions",
+          "resolved": "math_translation/translated/0011/sections/11-conclusions.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0011/main.tex",
+          "command": "bibliography",
+          "argument": "references",
+          "resolved": "math_translation/translated/0011/references.bib",
+          "exists": true
+        }
+      ],
+      "license_coverage": {
+        "mode": "per-paper",
+        "files": [
+          "math_translation/translated/0011/LICENSE"
+        ],
+        "matches_repository_license": true
+      }
+    },
+    {
+      "sequence": 12,
+      "entrypoint": "math_translation/translated/0012/main.tex",
+      "working_directory": "math_translation/translated/0012",
+      "translated_tex_files": 9,
+      "translated_bib_files": 1,
+      "license_files": [
+        "math_translation/translated/0012/LICENSE"
+      ],
+      "licenses_identical_to_repository": [
+        true
+      ],
+      "original_tex_files": 8,
+      "original_bib_files": 1,
+      "original_pdf_files": 1,
+      "explicit_font_commands": [],
+      "external_graphics": [],
+      "local_dependencies": [
+        {
+          "from": "math_translation/translated/0012/main.tex",
+          "command": "input",
+          "argument": "translation_note",
+          "resolved": "math_translation/translated/0012/translation_note.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0012/main.tex",
+          "command": "input",
+          "argument": "sections/introduction",
+          "resolved": "math_translation/translated/0012/sections/introduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0012/main.tex",
+          "command": "input",
+          "argument": "sections/setup",
+          "resolved": "math_translation/translated/0012/sections/setup.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0012/main.tex",
+          "command": "input",
+          "argument": "sections/analytic",
+          "resolved": "math_translation/translated/0012/sections/analytic.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0012/main.tex",
+          "command": "input",
+          "argument": "sections/weights",
+          "resolved": "math_translation/translated/0012/sections/weights.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0012/main.tex",
+          "command": "input",
+          "argument": "sections/model",
+          "resolved": "math_translation/translated/0012/sections/model.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0012/main.tex",
+          "command": "input",
+          "argument": "sections/tail",
+          "resolved": "math_translation/translated/0012/sections/tail.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0012/main.tex",
+          "command": "input",
+          "argument": "sections/algebraic",
+          "resolved": "math_translation/translated/0012/sections/algebraic.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0012/main.tex",
+          "command": "bibliography",
+          "argument": "references",
+          "resolved": "math_translation/translated/0012/references.bib",
+          "exists": true
+        }
+      ],
+      "license_coverage": {
+        "mode": "per-paper",
+        "files": [
+          "math_translation/translated/0012/LICENSE"
+        ],
+        "matches_repository_license": true
+      }
+    },
+    {
+      "sequence": 13,
+      "entrypoint": "math_translation/translated/0013/main.tex",
+      "working_directory": "math_translation/translated/0013",
+      "translated_tex_files": 19,
+      "translated_bib_files": 1,
+      "license_files": [
+        "math_translation/translated/0013/LICENSE"
+      ],
+      "licenses_identical_to_repository": [
+        true
+      ],
+      "original_tex_files": 18,
+      "original_bib_files": 1,
+      "original_pdf_files": 1,
+      "explicit_font_commands": [],
+      "external_graphics": [],
+      "local_dependencies": [
+        {
+          "from": "math_translation/translated/0013/main.tex",
+          "command": "input",
+          "argument": "translation_note",
+          "resolved": "math_translation/translated/0013/translation_note.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0013/main.tex",
+          "command": "input",
+          "argument": "introduction",
+          "resolved": "math_translation/translated/0013/introduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0013/main.tex",
+          "command": "input",
+          "argument": "quantitative/01-setup",
+          "resolved": "math_translation/translated/0013/quantitative/01-setup.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0013/main.tex",
+          "command": "input",
+          "argument": "quantitative/02-finite-law",
+          "resolved": "math_translation/translated/0013/quantitative/02-finite-law.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0013/main.tex",
+          "command": "input",
+          "argument": "quantitative/03-analytic",
+          "resolved": "math_translation/translated/0013/quantitative/03-analytic.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0013/main.tex",
+          "command": "input",
+          "argument": "quantitative/04-paths-trace",
+          "resolved": "math_translation/translated/0013/quantitative/04-paths-trace.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0013/main.tex",
+          "command": "input",
+          "argument": "quantitative/05-rank-witness",
+          "resolved": "math_translation/translated/0013/quantitative/05-rank-witness.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0013/main.tex",
+          "command": "input",
+          "argument": "quantitative/06-forest",
+          "resolved": "math_translation/translated/0013/quantitative/06-forest.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0013/main.tex",
+          "command": "input",
+          "argument": "quantitative/07-spectral",
+          "resolved": "math_translation/translated/0013/quantitative/07-spectral.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0013/main.tex",
+          "command": "input",
+          "argument": "quantitative/08-affine",
+          "resolved": "math_translation/translated/0013/quantitative/08-affine.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0013/main.tex",
+          "command": "input",
+          "argument": "qualitative/graph-setup",
+          "resolved": "math_translation/translated/0013/qualitative/graph-setup.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0013/main.tex",
+          "command": "input",
+          "argument": "qualitative/analytic-transfer",
+          "resolved": "math_translation/translated/0013/qualitative/analytic-transfer.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0013/main.tex",
+          "command": "input",
+          "argument": "qualitative/paths",
+          "resolved": "math_translation/translated/0013/qualitative/paths.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0013/main.tex",
+          "command": "input",
+          "argument": "qualitative/thinning",
+          "resolved": "math_translation/translated/0013/qualitative/thinning.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0013/main.tex",
+          "command": "input",
+          "argument": "qualitative/cylinder-sieve",
+          "resolved": "math_translation/translated/0013/qualitative/cylinder-sieve.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0013/main.tex",
+          "command": "input",
+          "argument": "qualitative/trace-count",
+          "resolved": "math_translation/translated/0013/qualitative/trace-count.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0013/main.tex",
+          "command": "input",
+          "argument": "qualitative/localization",
+          "resolved": "math_translation/translated/0013/qualitative/localization.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0013/main.tex",
+          "command": "input",
+          "argument": "qualitative/affine-corollaries",
+          "resolved": "math_translation/translated/0013/qualitative/affine-corollaries.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0013/main.tex",
+          "command": "bibliography",
+          "argument": "refs",
+          "resolved": "math_translation/translated/0013/refs.bib",
+          "exists": true
+        }
+      ],
+      "license_coverage": {
+        "mode": "per-paper",
+        "files": [
+          "math_translation/translated/0013/LICENSE"
+        ],
+        "matches_repository_license": true
+      }
+    },
+    {
+      "sequence": 14,
+      "entrypoint": "math_translation/translated/0014/paper.tex",
+      "working_directory": "math_translation/translated/0014",
+      "translated_tex_files": 14,
+      "translated_bib_files": 0,
+      "license_files": [
+        "math_translation/translated/0014/LICENSE"
+      ],
+      "licenses_identical_to_repository": [
+        true
+      ],
+      "original_tex_files": 13,
+      "original_bib_files": 0,
+      "original_pdf_files": 1,
+      "explicit_font_commands": [],
+      "external_graphics": [],
+      "local_dependencies": [
+        {
+          "from": "math_translation/translated/0014/paper.tex",
+          "command": "input",
+          "argument": "preamble.tex",
+          "resolved": "math_translation/translated/0014/preamble.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0014/paper.tex",
+          "command": "input",
+          "argument": "translation_note.tex",
+          "resolved": "math_translation/translated/0014/translation_note.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0014/paper.tex",
+          "command": "input",
+          "argument": "sections/01-introduction.tex",
+          "resolved": "math_translation/translated/0014/sections/01-introduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0014/paper.tex",
+          "command": "input",
+          "argument": "sections/02-algebra.tex",
+          "resolved": "math_translation/translated/0014/sections/02-algebra.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0014/paper.tex",
+          "command": "input",
+          "argument": "sections/03-degeneration.tex",
+          "resolved": "math_translation/translated/0014/sections/03-degeneration.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0014/paper.tex",
+          "command": "input",
+          "argument": "sections/04-deletion.tex",
+          "resolved": "math_translation/translated/0014/sections/04-deletion.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0014/paper.tex",
+          "command": "input",
+          "argument": "sections/05-image.tex",
+          "resolved": "math_translation/translated/0014/sections/05-image.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0014/paper.tex",
+          "command": "input",
+          "argument": "sections/06-category.tex",
+          "resolved": "math_translation/translated/0014/sections/06-category.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0014/paper.tex",
+          "command": "input",
+          "argument": "sections/07-holonomy.tex",
+          "resolved": "math_translation/translated/0014/sections/07-holonomy.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0014/paper.tex",
+          "command": "input",
+          "argument": "sections/08-induction.tex",
+          "resolved": "math_translation/translated/0014/sections/08-induction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0014/paper.tex",
+          "command": "input",
+          "argument": "references.tex",
+          "resolved": "math_translation/translated/0014/references.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0014/sections/04-deletion.tex",
+          "command": "input",
+          "argument": "figures/deletion-block.tex",
+          "resolved": "math_translation/translated/0014/figures/deletion-block.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0014/sections/06-category.tex",
+          "command": "input",
+          "argument": "figures/reassociation.tex",
+          "resolved": "math_translation/translated/0014/figures/reassociation.tex",
+          "exists": true
+        }
+      ],
+      "license_coverage": {
+        "mode": "per-paper",
+        "files": [
+          "math_translation/translated/0014/LICENSE"
+        ],
+        "matches_repository_license": true
+      }
+    },
+    {
+      "sequence": 15,
+      "entrypoint": "math_translation/translated/0015/main.tex",
+      "working_directory": "math_translation/translated/0015",
+      "translated_tex_files": 11,
+      "translated_bib_files": 0,
+      "license_files": [
+        "math_translation/translated/0015/LICENSE"
+      ],
+      "licenses_identical_to_repository": [
+        true
+      ],
+      "original_tex_files": 10,
+      "original_bib_files": 0,
+      "original_pdf_files": 1,
+      "explicit_font_commands": [],
+      "external_graphics": [],
+      "local_dependencies": [
+        {
+          "from": "math_translation/translated/0015/main.tex",
+          "command": "input",
+          "argument": "translation_note",
+          "resolved": "math_translation/translated/0015/translation_note.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0015/main.tex",
+          "command": "input",
+          "argument": "sections/01-introduction",
+          "resolved": "math_translation/translated/0015/sections/01-introduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0015/main.tex",
+          "command": "input",
+          "argument": "sections/02-local",
+          "resolved": "math_translation/translated/0015/sections/02-local.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0015/main.tex",
+          "command": "input",
+          "argument": "sections/03-residual-curves",
+          "resolved": "math_translation/translated/0015/sections/03-residual-curves.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0015/main.tex",
+          "command": "input",
+          "argument": "sections/04-support",
+          "resolved": "math_translation/translated/0015/sections/04-support.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0015/main.tex",
+          "command": "input",
+          "argument": "sections/05-curve-fields",
+          "resolved": "math_translation/translated/0015/sections/05-curve-fields.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0015/main.tex",
+          "command": "input",
+          "argument": "sections/06-good-functions",
+          "resolved": "math_translation/translated/0015/sections/06-good-functions.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0015/main.tex",
+          "command": "input",
+          "argument": "sections/07-field",
+          "resolved": "math_translation/translated/0015/sections/07-field.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0015/main.tex",
+          "command": "input",
+          "argument": "sections/08-compatibility",
+          "resolved": "math_translation/translated/0015/sections/08-compatibility.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0015/main.tex",
+          "command": "input",
+          "argument": "references",
+          "resolved": "math_translation/translated/0015/references.tex",
+          "exists": true
+        }
+      ],
+      "license_coverage": {
+        "mode": "per-paper",
+        "files": [
+          "math_translation/translated/0015/LICENSE"
+        ],
+        "matches_repository_license": true
+      }
+    },
+    {
+      "sequence": 16,
+      "entrypoint": "math_translation/translated/0016/main.tex",
+      "working_directory": "math_translation/translated/0016",
+      "translated_tex_files": 8,
+      "translated_bib_files": 1,
+      "license_files": [
+        "math_translation/translated/0016/LICENSE"
+      ],
+      "licenses_identical_to_repository": [
+        true
+      ],
+      "original_tex_files": 7,
+      "original_bib_files": 1,
+      "original_pdf_files": 1,
+      "explicit_font_commands": [],
+      "external_graphics": [],
+      "local_dependencies": [
+        {
+          "from": "math_translation/translated/0016/main.tex",
+          "command": "input",
+          "argument": "preamble",
+          "resolved": "math_translation/translated/0016/preamble.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0016/main.tex",
+          "command": "input",
+          "argument": "translation_note",
+          "resolved": "math_translation/translated/0016/translation_note.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0016/main.tex",
+          "command": "input",
+          "argument": "sections/01-introduction",
+          "resolved": "math_translation/translated/0016/sections/01-introduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0016/main.tex",
+          "command": "input",
+          "argument": "sections/02-symbols",
+          "resolved": "math_translation/translated/0016/sections/02-symbols.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0016/main.tex",
+          "command": "input",
+          "argument": "sections/03-intersection",
+          "resolved": "math_translation/translated/0016/sections/03-intersection.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0016/main.tex",
+          "command": "input",
+          "argument": "sections/04-lines",
+          "resolved": "math_translation/translated/0016/sections/04-lines.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0016/main.tex",
+          "command": "input",
+          "argument": "sections/05-fields",
+          "resolved": "math_translation/translated/0016/sections/05-fields.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0016/main.tex",
+          "command": "bibliography",
+          "argument": "references/references",
+          "resolved": "math_translation/translated/0016/references/references.bib",
+          "exists": true
+        }
+      ],
+      "license_coverage": {
+        "mode": "per-paper",
+        "files": [
+          "math_translation/translated/0016/LICENSE"
+        ],
+        "matches_repository_license": true
+      }
+    },
+    {
+      "sequence": 17,
+      "entrypoint": "math_translation/translated/0017/paper.tex",
+      "working_directory": "math_translation/translated/0017",
+      "translated_tex_files": 9,
+      "translated_bib_files": 1,
+      "license_files": [
+        "math_translation/translated/0017/LICENSE"
+      ],
+      "licenses_identical_to_repository": [
+        true
+      ],
+      "original_tex_files": 8,
+      "original_bib_files": 1,
+      "original_pdf_files": 1,
+      "explicit_font_commands": [],
+      "external_graphics": [],
+      "local_dependencies": [
+        {
+          "from": "math_translation/translated/0017/paper.tex",
+          "command": "input",
+          "argument": "translation_note",
+          "resolved": "math_translation/translated/0017/translation_note.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0017/paper.tex",
+          "command": "input",
+          "argument": "introduction",
+          "resolved": "math_translation/translated/0017/introduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0017/paper.tex",
+          "command": "input",
+          "argument": "preliminaries",
+          "resolved": "math_translation/translated/0017/preliminaries.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0017/paper.tex",
+          "command": "input",
+          "argument": "local-theory",
+          "resolved": "math_translation/translated/0017/local-theory.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0017/paper.tex",
+          "command": "input",
+          "argument": "residual-tests",
+          "resolved": "math_translation/translated/0017/residual-tests.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0017/paper.tex",
+          "command": "input",
+          "argument": "pencil-bound",
+          "resolved": "math_translation/translated/0017/pencil-bound.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0017/paper.tex",
+          "command": "input",
+          "argument": "curve-recovery",
+          "resolved": "math_translation/translated/0017/curve-recovery.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0017/paper.tex",
+          "command": "input",
+          "argument": "reconstruction",
+          "resolved": "math_translation/translated/0017/reconstruction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0017/paper.tex",
+          "command": "bibliography",
+          "argument": "references",
+          "resolved": "math_translation/translated/0017/references.bib",
+          "exists": true
+        }
+      ],
+      "license_coverage": {
+        "mode": "per-paper",
+        "files": [
+          "math_translation/translated/0017/LICENSE"
+        ],
+        "matches_repository_license": true
+      }
+    },
+    {
+      "sequence": 18,
+      "entrypoint": "math_translation/translated/0018/main.tex",
+      "working_directory": "math_translation/translated/0018",
+      "translated_tex_files": 8,
+      "translated_bib_files": 1,
+      "license_files": [
+        "math_translation/translated/0018/LICENSE"
+      ],
+      "licenses_identical_to_repository": [
+        true
+      ],
+      "original_tex_files": 7,
+      "original_bib_files": 1,
+      "original_pdf_files": 1,
+      "explicit_font_commands": [],
+      "external_graphics": [],
+      "local_dependencies": [
+        {
+          "from": "math_translation/translated/0018/main.tex",
+          "command": "input",
+          "argument": "translation_note",
+          "resolved": "math_translation/translated/0018/translation_note.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0018/main.tex",
+          "command": "input",
+          "argument": "sections/introduction",
+          "resolved": "math_translation/translated/0018/sections/introduction.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0018/main.tex",
+          "command": "input",
+          "argument": "sections/family",
+          "resolved": "math_translation/translated/0018/sections/family.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0018/main.tex",
+          "command": "input",
+          "argument": "sections/diagonal",
+          "resolved": "math_translation/translated/0018/sections/diagonal.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0018/main.tex",
+          "command": "input",
+          "argument": "sections/regular-point",
+          "resolved": "math_translation/translated/0018/sections/regular-point.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0018/main.tex",
+          "command": "input",
+          "argument": "sections/hecke",
+          "resolved": "math_translation/translated/0018/sections/hecke.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0018/main.tex",
+          "command": "input",
+          "argument": "sections/conclusion",
+          "resolved": "math_translation/translated/0018/sections/conclusion.tex",
+          "exists": true
+        },
+        {
+          "from": "math_translation/translated/0018/main.tex",
+          "command": "bibliography",
+          "argument": "refs",
+          "resolved": "math_translation/translated/0018/refs.bib",
+          "exists": true
+        }
+      ],
+      "license_coverage": {
+        "mode": "per-paper",
+        "files": [
+          "math_translation/translated/0018/LICENSE"
+        ],
+        "matches_repository_license": true
+      }
+    }
+  ],
+  "missing_local_dependencies": [],
+  "explicit_font_override_count": 0,
+  "external_includegraphics_count": 0,
+  "native_environment_counts": {
+    "tikzpicture": 12,
+    "figure": 14,
+    "array": 33,
+    "tikzcd": 2,
+    "CD": 1
+  },
+  "latex_dependencies": [
+    {
+      "filename": "FandolFang-Regular.otf",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "vendor/texmf/fonts/opentype/public/fandol/FandolFang-Regular.otf",
+      "referenced_by": []
+    },
+    {
+      "filename": "FandolHei-Bold.otf",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "vendor/texmf/fonts/opentype/public/fandol/FandolHei-Bold.otf",
+      "referenced_by": []
+    },
+    {
+      "filename": "FandolHei-Regular.otf",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "vendor/texmf/fonts/opentype/public/fandol/FandolHei-Regular.otf",
+      "referenced_by": []
+    },
+    {
+      "filename": "FandolKai-Regular.otf",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "vendor/texmf/fonts/opentype/public/fandol/FandolKai-Regular.otf",
+      "referenced_by": []
+    },
+    {
+      "filename": "FandolSong-Bold.otf",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "vendor/texmf/fonts/opentype/public/fandol/FandolSong-Bold.otf",
+      "referenced_by": []
+    },
+    {
+      "filename": "FandolSong-Regular.otf",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "vendor/texmf/fonts/opentype/public/fandol/FandolSong-Regular.otf",
+      "referenced_by": []
+    },
+    {
+      "filename": "alpha.bst",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/bibtex/bst/base/alpha.bst",
+      "referenced_by": [
+        "math_translation/translated/0013/main.tex",
+        "math_translation/translated/0017/paper.tex"
+      ]
+    },
+    {
+      "filename": "amscd.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amscd.sty",
+      "referenced_by": [
+        "math_translation/translated/0015/main.tex",
+        "math_translation/translated/0018/main.tex"
+      ]
+    },
+    {
+      "filename": "amsmath.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty",
+      "referenced_by": [
+        "math_translation/translated/0001/main.tex",
+        "math_translation/translated/0002/build/main.tex",
+        "math_translation/translated/0003/preamble.tex",
+        "math_translation/translated/0004/paper.tex",
+        "math_translation/translated/0005/paper.tex",
+        "math_translation/translated/0006/paper.tex",
+        "math_translation/translated/0007/paper.tex",
+        "math_translation/translated/0008/main.tex",
+        "math_translation/translated/0009/paper.tex",
+        "math_translation/translated/0010/main.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0012/main.tex",
+        "math_translation/translated/0013/main.tex",
+        "math_translation/translated/0014/preamble.tex",
+        "math_translation/translated/0015/main.tex",
+        "math_translation/translated/0016/preamble.tex",
+        "math_translation/translated/0017/paper.tex",
+        "math_translation/translated/0018/main.tex"
+      ]
+    },
+    {
+      "filename": "amssymb.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty",
+      "referenced_by": [
+        "math_translation/translated/0001/main.tex",
+        "math_translation/translated/0002/build/main.tex",
+        "math_translation/translated/0003/preamble.tex",
+        "math_translation/translated/0004/paper.tex",
+        "math_translation/translated/0005/paper.tex",
+        "math_translation/translated/0006/paper.tex",
+        "math_translation/translated/0007/paper.tex",
+        "math_translation/translated/0008/main.tex",
+        "math_translation/translated/0009/paper.tex",
+        "math_translation/translated/0010/main.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0012/main.tex",
+        "math_translation/translated/0013/main.tex",
+        "math_translation/translated/0014/preamble.tex",
+        "math_translation/translated/0015/main.tex",
+        "math_translation/translated/0016/preamble.tex",
+        "math_translation/translated/0017/paper.tex",
+        "math_translation/translated/0018/main.tex"
+      ]
+    },
+    {
+      "filename": "amsthm.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty",
+      "referenced_by": [
+        "math_translation/translated/0001/main.tex",
+        "math_translation/translated/0002/build/main.tex",
+        "math_translation/translated/0003/preamble.tex",
+        "math_translation/translated/0004/paper.tex",
+        "math_translation/translated/0005/paper.tex",
+        "math_translation/translated/0006/paper.tex",
+        "math_translation/translated/0007/paper.tex",
+        "math_translation/translated/0008/main.tex",
+        "math_translation/translated/0009/paper.tex",
+        "math_translation/translated/0010/main.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0012/main.tex",
+        "math_translation/translated/0013/main.tex",
+        "math_translation/translated/0014/preamble.tex",
+        "math_translation/translated/0015/main.tex",
+        "math_translation/translated/0016/preamble.tex",
+        "math_translation/translated/0017/paper.tex",
+        "math_translation/translated/0018/main.tex"
+      ]
+    },
+    {
+      "filename": "array.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty",
+      "referenced_by": [
+        "math_translation/translated/0002/build/main.tex",
+        "math_translation/translated/0003/preamble.tex",
+        "math_translation/translated/0004/paper.tex",
+        "math_translation/translated/0005/paper.tex",
+        "math_translation/translated/0006/paper.tex",
+        "math_translation/translated/0008/main.tex",
+        "math_translation/translated/0009/paper.tex",
+        "math_translation/translated/0010/main.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0014/preamble.tex"
+      ]
+    },
+    {
+      "filename": "bookmark.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty",
+      "referenced_by": [
+        "math_translation/translated/0004/paper.tex",
+        "math_translation/translated/0009/paper.tex",
+        "math_translation/translated/0010/main.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0012/main.tex",
+        "math_translation/translated/0013/main.tex",
+        "math_translation/translated/0014/preamble.tex"
+      ]
+    },
+    {
+      "filename": "booktabs.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty",
+      "referenced_by": [
+        "math_translation/translated/0001/main.tex",
+        "math_translation/translated/0002/build/main.tex",
+        "math_translation/translated/0003/preamble.tex",
+        "math_translation/translated/0004/paper.tex",
+        "math_translation/translated/0005/paper.tex",
+        "math_translation/translated/0006/paper.tex",
+        "math_translation/translated/0008/main.tex",
+        "math_translation/translated/0009/paper.tex",
+        "math_translation/translated/0010/main.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0012/main.tex",
+        "math_translation/translated/0014/preamble.tex",
+        "math_translation/translated/0018/main.tex"
+      ]
+    },
+    {
+      "filename": "cleveref.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty",
+      "referenced_by": [
+        "math_translation/translated/0003/preamble.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0013/main.tex",
+        "math_translation/translated/0017/paper.tex"
+      ]
+    },
+    {
+      "filename": "ctex-fontset-fandol.def",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "vendor/texmf/tex/latex/ctex/fontset/ctex-fontset-fandol.def",
+      "referenced_by": []
+    },
+    {
+      "filename": "ctexart.cls",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "vendor/texmf/tex/latex/ctex/ctexart.cls",
+      "referenced_by": [
+        "math_translation/translated/0001/main.tex",
+        "math_translation/translated/0002/build/main.tex",
+        "math_translation/translated/0003/main.tex",
+        "math_translation/translated/0004/paper.tex",
+        "math_translation/translated/0005/paper.tex",
+        "math_translation/translated/0006/paper.tex",
+        "math_translation/translated/0007/paper.tex",
+        "math_translation/translated/0008/main.tex",
+        "math_translation/translated/0009/paper.tex",
+        "math_translation/translated/0010/main.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0012/main.tex",
+        "math_translation/translated/0013/main.tex",
+        "math_translation/translated/0014/paper.tex",
+        "math_translation/translated/0015/main.tex",
+        "math_translation/translated/0016/main.tex",
+        "math_translation/translated/0017/paper.tex",
+        "math_translation/translated/0018/main.tex"
+      ]
+    },
+    {
+      "filename": "enumitem.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty",
+      "referenced_by": [
+        "math_translation/translated/0001/main.tex",
+        "math_translation/translated/0002/build/main.tex",
+        "math_translation/translated/0003/preamble.tex",
+        "math_translation/translated/0004/paper.tex",
+        "math_translation/translated/0008/main.tex",
+        "math_translation/translated/0009/paper.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0012/main.tex",
+        "math_translation/translated/0013/main.tex",
+        "math_translation/translated/0014/preamble.tex",
+        "math_translation/translated/0016/preamble.tex",
+        "math_translation/translated/0018/main.tex"
+      ]
+    },
+    {
+      "filename": "flafter.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/base/flafter.sty",
+      "referenced_by": [
+        "math_translation/translated/0011/main.tex"
+      ]
+    },
+    {
+      "filename": "fontspec.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty",
+      "referenced_by": []
+    },
+    {
+      "filename": "geometry.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty",
+      "referenced_by": [
+        "math_translation/translated/0001/main.tex",
+        "math_translation/translated/0002/build/main.tex",
+        "math_translation/translated/0003/preamble.tex",
+        "math_translation/translated/0004/paper.tex",
+        "math_translation/translated/0005/paper.tex",
+        "math_translation/translated/0006/paper.tex",
+        "math_translation/translated/0007/paper.tex",
+        "math_translation/translated/0008/main.tex",
+        "math_translation/translated/0009/paper.tex",
+        "math_translation/translated/0010/main.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0012/main.tex",
+        "math_translation/translated/0013/main.tex",
+        "math_translation/translated/0014/preamble.tex",
+        "math_translation/translated/0015/main.tex",
+        "math_translation/translated/0016/preamble.tex",
+        "math_translation/translated/0017/paper.tex",
+        "math_translation/translated/0018/main.tex"
+      ]
+    },
+    {
+      "filename": "graphicx.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty",
+      "referenced_by": [
+        "math_translation/translated/0003/preamble.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0014/preamble.tex",
+        "math_translation/translated/0015/main.tex"
+      ]
+    },
+    {
+      "filename": "hyperref.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty",
+      "referenced_by": [
+        "math_translation/translated/0001/main.tex",
+        "math_translation/translated/0002/build/main.tex",
+        "math_translation/translated/0003/preamble.tex",
+        "math_translation/translated/0004/paper.tex",
+        "math_translation/translated/0005/paper.tex",
+        "math_translation/translated/0006/paper.tex",
+        "math_translation/translated/0007/paper.tex",
+        "math_translation/translated/0008/main.tex",
+        "math_translation/translated/0009/paper.tex",
+        "math_translation/translated/0010/main.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0012/main.tex",
+        "math_translation/translated/0013/main.tex",
+        "math_translation/translated/0014/preamble.tex",
+        "math_translation/translated/0015/main.tex",
+        "math_translation/translated/0016/preamble.tex",
+        "math_translation/translated/0017/paper.tex",
+        "math_translation/translated/0018/main.tex"
+      ]
+    },
+    {
+      "filename": "longtable.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty",
+      "referenced_by": [
+        "math_translation/translated/0002/build/main.tex",
+        "math_translation/translated/0004/paper.tex",
+        "math_translation/translated/0005/paper.tex",
+        "math_translation/translated/0006/paper.tex",
+        "math_translation/translated/0009/paper.tex",
+        "math_translation/translated/0010/main.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0014/preamble.tex"
+      ]
+    },
+    {
+      "filename": "mathrsfs.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty",
+      "referenced_by": [
+        "math_translation/translated/0002/build/main.tex",
+        "math_translation/translated/0004/paper.tex",
+        "math_translation/translated/0005/paper.tex",
+        "math_translation/translated/0006/paper.tex",
+        "math_translation/translated/0009/paper.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0013/main.tex",
+        "math_translation/translated/0014/preamble.tex",
+        "math_translation/translated/0017/paper.tex",
+        "math_translation/translated/0018/main.tex"
+      ]
+    },
+    {
+      "filename": "mathtools.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty",
+      "referenced_by": [
+        "math_translation/translated/0001/main.tex",
+        "math_translation/translated/0002/build/main.tex",
+        "math_translation/translated/0003/preamble.tex",
+        "math_translation/translated/0004/paper.tex",
+        "math_translation/translated/0005/paper.tex",
+        "math_translation/translated/0006/paper.tex",
+        "math_translation/translated/0007/paper.tex",
+        "math_translation/translated/0008/main.tex",
+        "math_translation/translated/0009/paper.tex",
+        "math_translation/translated/0010/main.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0012/main.tex",
+        "math_translation/translated/0013/main.tex",
+        "math_translation/translated/0014/preamble.tex",
+        "math_translation/translated/0015/main.tex",
+        "math_translation/translated/0016/preamble.tex",
+        "math_translation/translated/0017/paper.tex",
+        "math_translation/translated/0018/main.tex"
+      ]
+    },
+    {
+      "filename": "microtype.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty",
+      "referenced_by": [
+        "math_translation/translated/0001/main.tex",
+        "math_translation/translated/0002/build/main.tex",
+        "math_translation/translated/0003/preamble.tex",
+        "math_translation/translated/0004/paper.tex",
+        "math_translation/translated/0005/paper.tex",
+        "math_translation/translated/0006/paper.tex",
+        "math_translation/translated/0007/paper.tex",
+        "math_translation/translated/0008/main.tex",
+        "math_translation/translated/0009/paper.tex",
+        "math_translation/translated/0010/main.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0012/main.tex",
+        "math_translation/translated/0013/main.tex",
+        "math_translation/translated/0014/preamble.tex",
+        "math_translation/translated/0015/main.tex",
+        "math_translation/translated/0016/preamble.tex",
+        "math_translation/translated/0017/paper.tex",
+        "math_translation/translated/0018/main.tex"
+      ]
+    },
+    {
+      "filename": "natbib.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty",
+      "referenced_by": [
+        "math_translation/translated/0003/preamble.tex",
+        "math_translation/translated/0010/main.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0012/main.tex",
+        "math_translation/translated/0016/preamble.tex"
+      ]
+    },
+    {
+      "filename": "needspace.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty",
+      "referenced_by": [
+        "math_translation/translated/0004/paper.tex",
+        "math_translation/translated/0012/main.tex"
+      ]
+    },
+    {
+      "filename": "pict2e.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/pict2e/pict2e.sty",
+      "referenced_by": [
+        "math_translation/translated/0011/main.tex"
+      ]
+    },
+    {
+      "filename": "plain.bst",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst",
+      "referenced_by": [
+        "math_translation/translated/0008/main.tex",
+        "math_translation/translated/0009/paper.tex",
+        "math_translation/translated/0018/main.tex"
+      ]
+    },
+    {
+      "filename": "plainnat.bst",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/bibtex/bst/natbib/plainnat.bst",
+      "referenced_by": [
+        "math_translation/translated/0003/main.tex",
+        "math_translation/translated/0010/main.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0012/main.tex",
+        "math_translation/translated/0016/main.tex"
+      ]
+    },
+    {
+      "filename": "tabularx.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty",
+      "referenced_by": [
+        "math_translation/translated/0005/paper.tex",
+        "math_translation/translated/0006/paper.tex",
+        "math_translation/translated/0011/main.tex"
+      ]
+    },
+    {
+      "filename": "tikz-cd.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty",
+      "referenced_by": [
+        "math_translation/translated/0017/paper.tex"
+      ]
+    },
+    {
+      "filename": "tikz.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty",
+      "referenced_by": [
+        "math_translation/translated/0001/main.tex",
+        "math_translation/translated/0002/build/main.tex",
+        "math_translation/translated/0003/preamble.tex",
+        "math_translation/translated/0004/paper.tex",
+        "math_translation/translated/0007/paper.tex",
+        "math_translation/translated/0008/main.tex",
+        "math_translation/translated/0013/main.tex",
+        "math_translation/translated/0014/preamble.tex",
+        "math_translation/translated/0016/preamble.tex"
+      ]
+    },
+    {
+      "filename": "tocbibind.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty",
+      "referenced_by": [
+        "math_translation/translated/0003/preamble.tex",
+        "math_translation/translated/0008/main.tex",
+        "math_translation/translated/0009/paper.tex",
+        "math_translation/translated/0010/main.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0012/main.tex",
+        "math_translation/translated/0013/main.tex"
+      ]
+    },
+    {
+      "filename": "xcolor.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty",
+      "referenced_by": [
+        "math_translation/translated/0001/main.tex",
+        "math_translation/translated/0002/build/main.tex",
+        "math_translation/translated/0004/paper.tex",
+        "math_translation/translated/0006/paper.tex",
+        "math_translation/translated/0007/paper.tex",
+        "math_translation/translated/0008/main.tex",
+        "math_translation/translated/0009/paper.tex",
+        "math_translation/translated/0010/main.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0012/main.tex",
+        "math_translation/translated/0015/main.tex"
+      ]
+    },
+    {
+      "filename": "xeCJK.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "vendor/texmf/tex/xelatex/xecjk/xeCJK.sty",
+      "referenced_by": []
+    },
+    {
+      "filename": "xelatex.fmt",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "runtime/texmf-var/web2c/xetex/xelatex.fmt",
+      "referenced_by": []
+    },
+    {
+      "filename": "xurl.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty",
+      "referenced_by": [
+        "math_translation/translated/0003/preamble.tex",
+        "math_translation/translated/0008/main.tex",
+        "math_translation/translated/0009/paper.tex",
+        "math_translation/translated/0010/main.tex",
+        "math_translation/translated/0011/main.tex",
+        "math_translation/translated/0012/main.tex",
+        "math_translation/translated/0013/main.tex",
+        "math_translation/translated/0016/preamble.tex",
+        "math_translation/translated/0017/paper.tex",
+        "math_translation/translated/0018/main.tex"
+      ]
+    },
+    {
+      "filename": "zhnumber.sty",
+      "default_lookup_found": false,
+      "portable_lookup_found": true,
+      "portable_path": "vendor/texmf/tex/latex/zhnumber/zhnumber.sty",
+      "referenced_by": []
+    }
+  ],
+  "system_tool_versions": {
+    "xelatex": {
+      "exit_code": 0,
+      "first_lines": [
+        "XeTeX 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian)",
+        "kpathsea version 6.4.0/dev",
+        "Copyright 2024 SIL International, Jonathan Kew and Khaled Hosny."
+      ]
+    },
+    "xetex": {
+      "exit_code": 0,
+      "first_lines": [
+        "XeTeX 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian)",
+        "kpathsea version 6.4.0/dev",
+        "Copyright 2024 SIL International, Jonathan Kew and Khaled Hosny."
+      ]
+    },
+    "bibtex": {
+      "exit_code": 0,
+      "first_lines": [
+        "BibTeX 0.99d (TeX Live 2025/dev/Debian)",
+        "kpathsea version 6.4.0/dev",
+        "Copyright 2024 Oren Patashnik."
+      ]
+    },
+    "kpsewhich": {
+      "exit_code": 0,
+      "first_lines": [
+        "kpathsea version 6.4.0/dev",
+        "Copyright 2023 Karl Berry & Olaf Weber.",
+        "License LGPLv2.1+: GNU Lesser GPL version 2.1 or later <https://gnu.org/licenses/lgpl.html>"
+      ]
+    },
+    "latexmk": {
+      "exit_code": 0,
+      "first_lines": [
+        "Latexmk, John Collins, 11 Dec. 2024. Version 4.86"
+      ]
+    },
+    "fmtutil-user": {
+      "exit_code": 0,
+      "first_lines": [
+        "fmtutil version r71424 (2024-06-04 12:25:53 +0200)"
+      ]
+    },
+    "pdftoppm": {
+      "exit_code": 0,
+      "first_lines": [
+        "pdftoppm version 26.05.0",
+        "Copyright 2005-2026 The Poppler Developers - http://poppler.freedesktop.org",
+        "Copyright 1996-2011, 2022 Glyph & Cog, LLC"
+      ]
+    },
+    "pdfinfo": {
+      "exit_code": 0,
+      "first_lines": [
+        "pdfinfo version 26.05.0",
+        "Copyright 2005-2026 The Poppler Developers - http://poppler.freedesktop.org",
+        "Copyright 1996-2011, 2022 Glyph & Cog, LLC"
+      ]
+    }
+  },
+  "python": {
+    "tested_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "cli_status_next_verify": "Python standard library only, per resume/verify author; actual CLI checks reported separately",
+    "imports": [
+      {
+        "module": "fitz",
+        "distribution": "PyMuPDF",
+        "version": "1.26.6",
+        "import_test": "pass",
+        "use": "PDF rendering/assembly scripts"
+      },
+      {
+        "module": "PIL",
+        "distribution": "Pillow",
+        "version": "13.0.0",
+        "import_test": "pass",
+        "use": "contact-sheet and image helper"
+      },
+      {
+        "module": "pypdf",
+        "distribution": "pypdf",
+        "version": "6.21.4",
+        "import_test": "pass",
+        "use": "available optional PDF toolkit, not required by restored Python scripts"
+      }
+    ],
+    "required_for_restored_rendering": [
+      "PyMuPDF==1.26.6",
+      "Pillow==13.0.0"
+    ],
+    "historical_script_local_imports": [
+      "render_qa"
+    ]
+  },
+  "repair": {
+    "bundled_texmf": "vendor/texmf",
+    "resource_provenance": "vendor/resource_provenance.json",
+    "helper": "portable_tex.py",
+    "environment_api": "portable_tex.build_environment(project_root) returns a subprocess environment dictionary",
+    "format_preparation_command": "python portable_tex.py prepare",
+    "format_cache": "runtime/texmf-var/web2c/xetex/xelatex.fmt",
+    "system_modified": false,
+    "failure_detected": [
+      "system ls-R database symlink targets absent",
+      "system fmtutil.cnf symlink targets absent",
+      "system language.dat absent",
+      "ctex/xeCJK/zhnumber/Fandol absent before bundling"
+    ],
+    "resolution": [
+      "bundle unmodified Chinese resources with provenance and licenses",
+      "process-local TEXMF enables directory search without !! database-only requirement",
+      "prepare format from installed standard xelatex.ini if fmtutil cannot find a format definition"
+    ],
+    "format_fallback_hyphenation": "This minimal environment used the installed hyphen.tex English fallback because language.dat was absent; Chinese text is handled by xeCJK. No assertion of compatibility with untested additional languages."
+  },
+  "rebuild_test": {
+    "paper": 18,
+    "checked_utc": "2026-11-19T12:13:31.947518+00:00",
+    "result": "pass",
+    "passes": [
+      {
+        "pass": 1,
+        "command": [
+          "xelatex",
+          "-interaction=nonstopmode",
+          "-halt-on-error",
+          "main.tex"
+        ],
+        "returncode": 0,
+        "log": "runtime/dependency_probe/0018/probe_pass_1.txt"
+      },
+      {
+        "pass": 2,
+        "command": [
+          "bibtex",
+          "main"
+        ],
+        "returncode": 0,
+        "log": "runtime/dependency_probe/0018/probe_pass_2.txt"
+      },
+      {
+        "pass": 3,
+        "command": [
+          "xelatex",
+          "-interaction=nonstopmode",
+          "-halt-on-error",
+          "main.tex"
+        ],
+        "returncode": 0,
+        "log": "runtime/dependency_probe/0018/probe_pass_3.txt"
+      },
+      {
+        "pass": 4,
+        "command": [
+          "xelatex",
+          "-interaction=nonstopmode",
+          "-halt-on-error",
+          "main.tex"
+        ],
+        "returncode": 0,
+        "log": "runtime/dependency_probe/0018/probe_pass_4.txt"
+      },
+      {
+        "pass": 5,
+        "command": [
+          "xelatex",
+          "-interaction=nonstopmode",
+          "-halt-on-error",
+          "main.tex"
+        ],
+        "returncode": 0,
+        "log": "runtime/dependency_probe/0018/probe_pass_5.txt"
+      }
+    ],
+    "final_diagnostics": [],
+    "source_files_unchanged": true,
+    "input_hashes": {
+      "main.tex": "8b01eab93d5490608a6bff7b7667fb7d4754bf7f3a6229f2379c864b33e65158",
+      "translation_note.tex": "7df56e4e937e0a16d4742ec2be6a8bd74646905207c3f8069561324a020e6eda",
+      "refs.bib": "b10a6712d278279f34b2e6b2bc34c9e6599406bbb6b883d26b857e54f3c92a5e",
+      "sections/hecke.tex": "0d13c72bc936e364a44c8643af37e967024b9ae762796c4df55598ca7175c56e",
+      "sections/conclusion.tex": "11d494ad1cd6fde022a77e563f942eebe241be00f6e28a2e5493ca1db469573b",
+      "sections/diagonal.tex": "88c4119accd7e2e5db1217d6033292c24257f6ab516f427d3f38360c41d7033d",
+      "sections/regular-point.tex": "a4097f5e9712f064565251b420bd7bfe6f2a45b6ba7974dca10f319d8d0076e9",
+      "sections/introduction.tex": "3d66b891bac8d858dd45ab9a1d5032680050831ccc78c42c6ca50a67fb9a3811",
+      "sections/family.tex": "5710ef375abae016b8750d09a47363fca3898c894c126c7c9df3833a17d60a56"
+    },
+    "scope": "Isolated rebuild from restored source; no historical manuscript, PDF, QA or progress overwritten; not a new semantic/visual review.",
+    "pdf": {
+      "path": "runtime/dependency_probe/0018/main.pdf",
+      "pages": 27,
+      "sha256": "2c281de2a9d1e8a4a17dad348bcc2a332a5ae3ff52a66f2cb70598a93cc2abc0"
+    }
+  },
+  "limitations": [
+    "The original dependency subaudit rebuilt only paper 0018. A separate completed root batch rebuilt all 18 manuscripts; its report and confirmed outcomes are linked under independent_all_papers_rebuild_test.",
+    "A new build is not a replacement for the byte-preserved historical PDFs or their original visual review. Different TeX releases or fonts may change layout.",
+    "No full TeX distribution, executables or machine-specific format caches are bundled as portable dependencies. A host TeX Live installation with the listed packages is still required.",
+    "Historical scripts and QA may retain old absolute paths as evidence; use resume.py and portable_tex.py for active portable operations."
+  ],
+  "issues": [],
+  "historical_archives_runtime_resources": {
+    "included": false,
+    "checked": "recovery_logs/archive_inventory.json in recovery workspace",
+    "finding": "All recovered ZIP resource inventories were empty for deps, fonts and TeX class/package/format files; the new vendor resources were therefore acquired separately and recorded."
+  },
+  "independent_all_papers_rebuild_test": {
+    "report": "recovery_evidence/all_papers_rebuild_test.json",
+    "report_sha256": "e717c98ebb1b3f0f67d1c6f78cf1a909bc7baf9bf54566980277c0222658c35e",
+    "performed_by": "root agent using portable resume entry point",
+    "report_fields_checked_utc": "2026-11-19T12:22:19.255603+00:00",
+    "result": "pass",
+    "sequences": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "all_returncodes_zero": true,
+    "all_reports_built": true,
+    "all_final_diagnostics_empty": true,
+    "all_page_counts_match_historical": true,
+    "total_rebuilt_pdf_pages": 1118,
+    "source_files_unchanged": true,
+    "source_file_count": 253,
+    "all_historical_pdfs_unchanged": true,
+    "results": [
+      {
+        "sequence": 1,
+        "result": "built",
+        "returncode": 0,
+        "pages": 32,
+        "diagnostics": []
+      },
+      {
+        "sequence": 2,
+        "result": "built",
+        "returncode": 0,
+        "pages": 79,
+        "diagnostics": []
+      },
+      {
+        "sequence": 3,
+        "result": "built",
+        "returncode": 0,
+        "pages": 67,
+        "diagnostics": []
+      },
+      {
+        "sequence": 4,
+        "result": "built",
+        "returncode": 0,
+        "pages": 144,
+        "diagnostics": []
+      },
+      {
+        "sequence": 5,
+        "result": "built",
+        "returncode": 0,
+        "pages": 191,
+        "diagnostics": []
+      },
+      {
+        "sequence": 6,
+        "result": "built",
+        "returncode": 0,
+        "pages": 50,
+        "diagnostics": []
+      },
+      {
+        "sequence": 7,
+        "result": "built",
+        "returncode": 0,
+        "pages": 10,
+        "diagnostics": []
+      },
+      {
+        "sequence": 8,
+        "result": "built",
+        "returncode": 0,
+        "pages": 58,
+        "diagnostics": []
+      },
+      {
+        "sequence": 9,
+        "result": "built",
+        "returncode": 0,
+        "pages": 84,
+        "diagnostics": []
+      },
+      {
+        "sequence": 10,
+        "result": "built",
+        "returncode": 0,
+        "pages": 43,
+        "diagnostics": []
+      },
+      {
+        "sequence": 11,
+        "result": "built",
+        "returncode": 0,
+        "pages": 113,
+        "diagnostics": []
+      },
+      {
+        "sequence": 12,
+        "result": "built",
+        "returncode": 0,
+        "pages": 39,
+        "diagnostics": []
+      },
+      {
+        "sequence": 13,
+        "result": "built",
+        "returncode": 0,
+        "pages": 77,
+        "diagnostics": []
+      },
+      {
+        "sequence": 14,
+        "result": "built",
+        "returncode": 0,
+        "pages": 38,
+        "diagnostics": []
+      },
+      {
+        "sequence": 15,
+        "result": "built",
+        "returncode": 0,
+        "pages": 31,
+        "diagnostics": []
+      },
+      {
+        "sequence": 16,
+        "result": "built",
+        "returncode": 0,
+        "pages": 11,
+        "diagnostics": []
+      },
+      {
+        "sequence": 17,
+        "result": "built",
+        "returncode": 0,
+        "pages": 24,
+        "diagnostics": []
+      },
+      {
+        "sequence": 18,
+        "result": "built",
+        "returncode": 0,
+        "pages": 27,
+        "diagnostics": []
+      }
+    ],
+    "scope": "Fresh isolated rebuild of every completed manuscript using the portable entry point; no new translation or visual/proof review.",
+    "relationship_to_0018_subaudit": "Separate later batch result. The existing rebuild_test object retains the original independent paper-0018-only scope unchanged."
+  }
+}
